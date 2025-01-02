@@ -1,0 +1,53 @@
+.addButton{
+    background-color: #114031;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    border-radius: 40px;
+    color: white;
+}
+
+.addButton:hover{
+    background-color: #136249;
+}
+
+.addQuestionForm{
+    height: 300px;
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.addQuestion{
+    text-align: left;
+}
+
+.addQuestionLabel{
+    display: block;
+    font-size: 1.2rem;
+}
+
+.addQuestionInput{
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+.addQuestionContainer{
+    margin-bottom: 20px;
+}
+
+@media(max-width: 1000px){
+    .addQuestionForm{
+        width: 45%;
+    }
+}
+
+@media(max-width: 600px){
+    .addQuestionForm{
+        width: 60%;
+    }
+}
+
